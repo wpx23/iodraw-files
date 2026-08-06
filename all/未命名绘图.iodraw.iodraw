@@ -32,7 +32,7 @@
           <mxGeometry x="117" y="447" width="200" height="49" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-65" value="PHN机理导向模型&#xa;哈密顿力学骨架+神经网络补偿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="436.5" y="360" width="244" height="84" as="geometry" />
+          <mxGeometry x="437" y="360" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-66" value="关节角度/速度/加速度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="458.5" y="237" width="221" height="49" as="geometry" />
@@ -94,6 +94,9 @@
               <mxPoint x="467" y="545" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-66" target="xI_8EOvxLYDka9g4dUZi-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-83" value="输出" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-65" target="xI_8EOvxLYDka9g4dUZi-67">
           <mxGeometry relative="1" as="geometry">
