@@ -16,7 +16,7 @@
         <mxCell id="xI_8EOvxLYDka9g4dUZi-59" value="研究内容2：精确动力学建模" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="220" width="318" height="379" as="geometry" />
         </mxCell>
-        <mxCell id="xI_8EOvxLYDka9g4dUZi-60" value="研究内容1：数据驱动力矩预测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-60" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="75" y="159" width="283" height="411" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-61" value="机械臂物理实体" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
