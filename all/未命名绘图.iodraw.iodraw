@@ -79,9 +79,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xI_8EOvxLYDka9g4dUZi-80" value="总驱动扭矩 tau_act" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-63">
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-80" value="总驱动扭矩 tau_act" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-63" target="xI_8EOvxLYDka9g4dUZi-68">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
             <mxPoint x="217" y="447" as="targetPoint" />
           </mxGeometry>
         </mxCell>
