@@ -14,7 +14,7 @@
           <mxGeometry x="111" y="620" width="480" height="223" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-59" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="410" y="220" width="318" height="330" as="geometry" />
+          <mxGeometry x="400" y="190" width="318" height="330" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-60" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="75" y="159" width="283" height="271" as="geometry" />
@@ -29,13 +29,13 @@
           <mxGeometry x="111" y="283" width="211" height="66" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-65" value="PHN机理导向模型&#xa;哈密顿力学骨架+神经网络补偿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470.25" y="366" width="194.5" height="64" as="geometry" />
+          <mxGeometry x="460.25" y="336" width="194.5" height="64" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-66" value="关节角度/速度/加速度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="457" y="234" width="221" height="49" as="geometry" />
+          <mxGeometry x="447" y="204" width="221" height="49" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-67" value="本体运动扭矩 tau_body" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="454" y="470" width="227" height="49" as="geometry" />
+          <mxGeometry x="444" y="440" width="227" height="49" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-68" value="广义动量观测器&#xa;核心减法逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="276" y="645" width="172" height="66" as="geometry" />
