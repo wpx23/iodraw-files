@@ -108,8 +108,15 @@
         <mxCell id="xI_8EOvxLYDka9g4dUZi-84" value="" style="startArrow=none;endArrow=block;exitX=0.47;exitY=0.98;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-64" target="xI_8EOvxLYDka9g4dUZi-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xI_8EOvxLYDka9g4dUZi-85" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.03;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-67" target="xI_8EOvxLYDka9g4dUZi-68">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-85" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-67" target="xI_8EOvxLYDka9g4dUZi-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="569" y="680" />
+              <mxPoint x="450" y="680" />
+              <mxPoint x="450" y="647" />
+              <mxPoint x="448" y="647" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-86" value="解算" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-68" target="xI_8EOvxLYDka9g4dUZi-69">
           <mxGeometry relative="1" as="geometry">
