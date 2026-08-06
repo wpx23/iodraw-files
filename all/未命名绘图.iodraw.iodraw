@@ -29,7 +29,7 @@
           <mxGeometry x="111" y="283" width="211" height="66" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-65" value="PHN机理导向模型&#xa;哈密顿力学骨架+神经网络补偿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="445.5" y="380" width="194.5" height="64" as="geometry" />
+          <mxGeometry x="350" y="420" width="194.5" height="64" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-66" value="关节角度/速度/加速度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="457" y="234" width="221" height="49" as="geometry" />
