@@ -14,7 +14,7 @@
           <mxGeometry x="111" y="620" width="480" height="223" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-59" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="190" width="318" height="330" as="geometry" />
+          <mxGeometry x="410" y="188" width="289" height="322" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-60" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="89" y="159" width="255" height="251" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry x="444" y="440" width="227" height="49" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-68" value="广义动量观测器&#xa;核心减法逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="276" y="645" width="172" height="66" as="geometry" />
+          <mxGeometry x="275" y="645" width="172" height="66" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-69" value="纯净接触力 F_ext" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="288" y="784" width="148" height="34" as="geometry" />
