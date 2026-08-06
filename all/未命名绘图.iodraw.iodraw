@@ -13,7 +13,7 @@
         <mxCell id="xI_8EOvxLYDka9g4dUZi-58" value="研究内容2：无传感器外力感知" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="111" y="620" width="480" height="223" as="geometry" />
         </mxCell>
-        <mxCell id="xI_8EOvxLYDka9g4dUZi-59" value="研究内容2：精确动力学建模" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-59" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="220" width="318" height="379" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-60" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -29,7 +29,7 @@
           <mxGeometry x="111" y="283" width="211" height="66" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-65" value="PHN机理导向模型&#xa;哈密顿力学骨架+神经网络补偿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="420" width="194.5" height="64" as="geometry" />
+          <mxGeometry x="471.75" y="349" width="194.5" height="64" as="geometry" />
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-66" value="关节角度/速度/加速度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="457" y="234" width="221" height="49" as="geometry" />
@@ -88,10 +88,10 @@
         <mxCell id="xI_8EOvxLYDka9g4dUZi-81" value="" style="startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-63" target="xI_8EOvxLYDka9g4dUZi-65">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="216" y="390" />
-              <mxPoint x="384" y="390" />
-              <mxPoint x="384" y="320" />
-              <mxPoint x="568" y="320" />
+              <mxPoint x="216" y="359" />
+              <mxPoint x="397" y="359" />
+              <mxPoint x="397" y="310" />
+              <mxPoint x="569" y="310" />
             </Array>
             <mxPoint x="220" y="490" as="sourcePoint" />
           </mxGeometry>
