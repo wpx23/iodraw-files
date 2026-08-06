@@ -80,13 +80,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-80" value="总驱动扭矩 tau_act" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-63" target="xI_8EOvxLYDka9g4dUZi-68">
-          <mxGeometry x="-0.583" y="54" relative="1" as="geometry">
+          <mxGeometry x="-0.8404" y="-56" relative="1" as="geometry">
             <mxPoint x="217" y="447" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xI_8EOvxLYDka9g4dUZi-81" value="" style="startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xI_8EOvxLYDka9g4dUZi-65">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="491" />
+              <mxPoint x="333" y="491" />
+              <mxPoint x="333" y="320" />
+              <mxPoint x="568" y="320" />
+            </Array>
             <mxPoint x="220" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
