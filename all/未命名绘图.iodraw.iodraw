@@ -4,6 +4,167 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-98" value="机械臂物理本体&#xa;涂胶/打磨" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="445" y="840" width="140" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-99" value="NeuralActuator&#xa;&lt;b&gt;研究1：数据驱动力矩预测&lt;/b&gt;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="86" y="941" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-100" value="总驱动扭矩 τ_act" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="117" y="1093" width="183" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-101" value="PHN 机理模型&#xa;&lt;b&gt;研究2：精确动力学建模&lt;/b&gt;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="385" y="1191" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-102" value="广义动量观测器&#xa;&lt;b&gt;研究2：无传感器外力感知&lt;/b&gt;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="217" y="1424" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-103" value="关节角度/速度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="456" y="1093" width="164" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-104" value="本体运动扭矩 τ_body" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="409" y="1325" width="211" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-105" value="纯净接触力 F_Ext&#xa;替代物理六维力传感器" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="245" y="1598" width="188" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-106" value="力/位/姿 正交解耦" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="242" y="1699" width="194" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-107" value="① 力幅自适应&#xa;模糊推理在线调参" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="1798" width="188" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-108" value="② 力向自顺应&#xa;力-位混合控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="258" y="1798" width="162" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-109" value="③ 路径自锁紧&#xa;相位导纳约束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="1798" width="161" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-110" value="期望末端位姿/路径点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="221" y="1914" width="212" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-111" value="逆运动学 + 位置内环&#xa;PPC预设性能控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="224" y="2013" width="206" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-112" value="关节力矩指令 τ_c" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="423" y="2129" width="184" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-113" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-98" target="xI_8EOvxLYDka9g4dUZi-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="209" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-114" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-99" target="xI_8EOvxLYDka9g4dUZi-100">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.23;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-100" target="xI_8EOvxLYDka9g4dUZi-101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="1166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-116" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=0.99;entryX=0.11;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-100" target="xI_8EOvxLYDka9g4dUZi-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199" y="1166" />
+              <mxPoint x="199" y="1399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-117" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.56;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-103" target="xI_8EOvxLYDka9g4dUZi-101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="1166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-118" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-101" target="xI_8EOvxLYDka9g4dUZi-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-119" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.98;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-104" target="xI_8EOvxLYDka9g4dUZi-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="514" y="1399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-120" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-102" target="xI_8EOvxLYDka9g4dUZi-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-105" target="xI_8EOvxLYDka9g4dUZi-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-106" target="xI_8EOvxLYDka9g4dUZi-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="114" y="1773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-123" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-106" target="xI_8EOvxLYDka9g4dUZi-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-124" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-106" target="xI_8EOvxLYDka9g4dUZi-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.01;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-107" target="xI_8EOvxLYDka9g4dUZi-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="114" y="1889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.53;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-108" target="xI_8EOvxLYDka9g4dUZi-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="339" y="1889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-127" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.02;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-109" target="xI_8EOvxLYDka9g4dUZi-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-128" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-110" target="xI_8EOvxLYDka9g4dUZi-111">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-129" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-111" target="xI_8EOvxLYDka9g4dUZi-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="327" y="2104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xI_8EOvxLYDka9g4dUZi-130" value="驱动闭环" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=0;entryX=1;entryY=0.91;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xI_8EOvxLYDka9g4dUZi-112" target="xI_8EOvxLYDka9g4dUZi-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="686" y="2104" />
+              <mxPoint x="686" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
